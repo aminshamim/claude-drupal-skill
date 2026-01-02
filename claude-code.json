@@ -1,11 +1,11 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@main/schema/plugin-manifest.json",
   "name": "drupal-11-expert",
-  "version": "1.0.0",
-  "description": "Expert Drupal 11 development assistant with deep knowledge of core APIs, best practices, and modern architecture patterns",
-  "author": "Your Name",
+  "version": "2.0.0",
+  "description": "Expert Drupal 11 development assistant with comprehensive knowledge of official Drupal 11 APIs from api.drupal.org - Entity API, Plugin system, Service Container, Configuration, Cache, Routing, Forms, Database, Render API, Events, and Security best practices",
+  "author": "Amin Shamim",
   "license": "MIT",
-  "repository": "https://github.com/yourusername/claude-drupal-skill",
+  "repository": "https://github.com/aminshamim/claude-drupal-skill",
   "keywords": [
     "drupal",
     "drupal11",
@@ -14,12 +14,17 @@
     "development",
     "module-development",
     "theme-development",
-    "api"
+    "api",
+    "entity-api",
+    "plugin-api",
+    "dependency-injection",
+    "twig",
+    "symfony"
   ],
   "skills": [
     {
       "name": "drupal-setup",
-      "description": "Complete Drupal development lifecycle - setup, onboarding, and maintenance",
+      "description": "Complete Drupal 11 development with in-depth API knowledge from official documentation",
       "promptFile": "skills/drupal-setup.md"
     }
   ]
