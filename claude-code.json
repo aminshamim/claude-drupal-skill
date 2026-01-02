@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@main/schema/plugin-manifest.json",
+  "name": "drupal-11-expert",
+  "version": "1.0.0",
+  "description": "Expert Drupal 11 development assistant with deep knowledge of core APIs, best practices, and modern architecture patterns",
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": "https://github.com/yourusername/claude-drupal-skill",
+  "keywords": [
+    "drupal",
+    "drupal11",
+    "php",
+    "cms",
+    "development",
+    "module-development",
+    "theme-development",
+    "api"
+  ],
+  "skills": [
+    {
+      "name": "drupal-setup",
+      "description": "Complete Drupal development lifecycle - setup, onboarding, and maintenance",
+      "promptFile": "skills/drupal-setup.md"
+    }
+  ]
+}
