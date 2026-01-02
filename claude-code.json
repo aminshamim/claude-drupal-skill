@@ -1,8 +1,8 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/anthropics/claude-code@main/schema/plugin-manifest.json",
   "name": "drupal-11-expert",
-  "version": "2.0.0",
-  "description": "Expert Drupal 11 development assistant with comprehensive knowledge of official Drupal 11 APIs from api.drupal.org - Entity API, Plugin system, Service Container, Configuration, Cache, Routing, Forms, Database, Render API, Events, and Security best practices",
+  "version": "2.1.0",
+  "description": "Expert Drupal 11 development assistant with comprehensive knowledge of official Drupal 11 APIs from api.drupal.org - Entity API, Plugin system, Service Container, Configuration, Cache, Routing, Forms, Database, Render API, Events, Security, and PhD-level Theming expertise with Twig, SDC, and responsive design",
   "author": "Amin Shamim",
   "license": "MIT",
   "repository": "https://github.com/aminshamim/claude-drupal-skill",
@@ -14,11 +14,15 @@
     "development",
     "module-development",
     "theme-development",
+    "theming",
+    "twig",
     "api",
     "entity-api",
     "plugin-api",
     "dependency-injection",
-    "twig",
+    "sdc",
+    "responsive-design",
+    "accessibility",
     "symfony"
   ],
   "skills": [
@@ -26,6 +30,11 @@
       "name": "drupal-setup",
       "description": "Complete Drupal 11 development with in-depth API knowledge from official documentation",
       "promptFile": "skills/drupal-setup.md"
+    },
+    {
+      "name": "drupal-theming",
+      "description": "PhD-level Drupal 11 theming expertise - Render API, Twig, SDC, responsive design, accessibility, performance",
+      "promptFile": "skills/drupal-theming.md"
     }
   ]
 }
