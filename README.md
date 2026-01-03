@@ -34,16 +34,16 @@ This skill enables Claude to:
 ### Install from Git
 
 ```bash
-claude-code plugins install https://github.com/yourusername/claude-drupal-skill
+claude-code plugins install https://github.com/aminshamim/claude-drupal-skill
 ```
 
-Replace `yourusername` with your GitHub username after you push to git.
+Replace `aminshamim` with your GitHub username after you push to git.
 
 ### Manual Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/claude-drupal-skill
+   git clone https://github.com/aminshamim/claude-drupal-skill
    ```
 
 2. Install the plugin:
@@ -292,7 +292,7 @@ MIT License - See LICENSE file for details
 ## Support
 
 For issues, questions, or contributions:
-- GitHub Issues: [https://github.com/yourusername/claude-drupal-skill/issues](https://github.com/yourusername/claude-drupal-skill/issues)
+- GitHub Issues: [https://github.com/aminshamim/claude-drupal-skill/issues](https://github.com/aminshamim/claude-drupal-skill/issues)
 
 ## Resources
 
